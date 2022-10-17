@@ -93,7 +93,7 @@ function showResult(result, computerResult) {
         Computer: <span>${computerScore}</span>
     `
     }
-
+    setTimeout(() => { body.lastElementChild.remove() }, 1500);
 
 
 }
