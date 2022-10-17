@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #b9b7a7;
+    border-radius: 10px;
+    padding: 60px 0;
+    /* opacity: 0.7; */
+}
+
+.heading {
+    margin: 2rem 2rem;
+    margin-top: 0;
+    font-size: 4rem;
+    color: #4e5166;
+    font-weight: 100;
+}
+
+button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 2rem;
+    background-color: #4e5166;
+    color: #b9b7a7;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+button:hover {
+    color: #4e5166;
+    background-color: #b9b7a7;
+    scale: 1.05;
+    transition: 0.5s ease;
+}
+
+.rivals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 100px;
+}
+
+.player {
+    width: 50%;
+    padding: 10px 40px;
+    border: 1px solid #da7635;
+    margin: 10px 20px;
+    border-radius: 10px;
+    color: #da7635;
+    font-size: 2rem;
+}
+
+.heading2 {
+    font-size: 2rem;
+    color: #4e5166;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.selections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 100px;
+}
+
+.option {
+    border: 1px solid #da7635;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.option:hover {
+    scale: 1.05;
+    color: #e24e1b;
+    border: 2px solid #e24e1b;
+
+}
+
+.fas {
+    color: #da7635;
+    transition: 0.7s;
+}
+
+.option:hover .fas {
+    color: #e24e1b;
+}
+
+.resultDisplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.resultDisplay {
+    background-color: #4e5166;
+    border: 1px solid #da7635;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.resultDisplay h3 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #da7635;
+}
